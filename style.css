@@ -1,1 +1,9 @@
+.dark_mode {
+  text-color: "silver",
+  background: "black"
+}
 
+.light_mode{
+  text-color: "black",
+  background: "silver"
+}
