@@ -9,9 +9,13 @@
   <title>Victor Selegean's Personal Website</title>
 </head>
 
-<body class="light_mode">
+<body id="body" class="light_mode">
 </body>
 <script>
-  
+  body = document.getElementById("body");
+  body.addEventListener("click", function (e) {
+    body.className.toggle("light_mode")
+    body.className.toggle("dark_mode")
+  });
 </script>
 </html>
